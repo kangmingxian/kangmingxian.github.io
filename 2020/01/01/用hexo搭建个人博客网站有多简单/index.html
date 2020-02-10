@@ -73,14 +73,14 @@
 
 
 
-<meta name="description" content="什么是Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装 Hexo 相当简单，只需要先安装下列应用程序即可：Node.js (Node.js 版本需不低于 8.10，建议使用 Node.js 10.0 及以上版本)Git 安装Git参考《第一行代码》或博客网站搜索下载安装教程https:">
+<meta name="description" content="什么是Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装 Hexo 相当简单，只需要先安装下列应用程序即可：Node.js (Node.js 版本需不低于 8.10，建议使用 Node.js 10.0 及以上版本)Git 安装Git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用hexo搭建个人博客网站有多简单">
 <meta property="og:url" content="http://yoursite.com/2020/01/01/%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%9C%89%E5%A4%9A%E7%AE%80%E5%8D%95/index.html">
 <meta property="og:site_name" content="dankekang">
-<meta property="og:description" content="什么是Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装 Hexo 相当简单，只需要先安装下列应用程序即可：Node.js (Node.js 版本需不低于 8.10，建议使用 Node.js 10.0 及以上版本)Git 安装Git参考《第一行代码》或博客网站搜索下载安装教程https:">
+<meta property="og:description" content="什么是Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装 Hexo 相当简单，只需要先安装下列应用程序即可：Node.js (Node.js 版本需不低于 8.10，建议使用 Node.js 10.0 及以上版本)Git 安装Git">
 <meta property="article:published_time" content="2020-01-01T12:45:04.000Z">
-<meta property="article:modified_time" content="2020-01-04T12:33:18.074Z">
+<meta property="article:modified_time" content="2020-02-10T12:08:43.485Z">
 <meta property="article:author" content="康布斯">
 <meta property="article:tag" content="经验">
 <meta property="article:tag" content="博客搭建">
@@ -410,7 +410,8 @@
       
         <h2 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <p>安装 Hexo 相当简单，只需要先安装下列应用程序即可：<br>Node.js (Node.js 版本需不低于 8.10，建议使用 Node.js 10.0 及以上版本)<br>Git</p>
-<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>参考《第一行代码》或博客网站搜索下载安装教程<br><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener" title="Git官网">https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git </a></p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><a id="more"></a>
+<p>参考《第一行代码》或博客网站搜索下载安装教程<br><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener" title="Git官网">https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git </a></p>
 <h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>Node.js官网<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener" title="Node.js官网">https://nodejs.org/en/download/</a></p>
 <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。<br><br>    $ npm install -g hexo-cli<br>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。<br><br>    $ hexo init <folder><br>    $ cd <folder><br>    $ npm install<br>新建完成后，指定文件夹的目录如下：<br><br><code>  .<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├── source<br>|   ├── _drafts<br>|   └── _posts<br>└── themes</code><br>趁热打铁,执行命令<br><br>    hexo init<br>    hexo s<br>这个时候，你就可以使用浏览器输入localhost访问生成的页面。</p>
 <h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><p>网站的 配置 信息，您可以在此配置大部分的参数。</p>
